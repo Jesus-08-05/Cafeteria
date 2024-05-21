@@ -20,7 +20,7 @@ img{
 }
 
 body{
-  background-color: #f1f1f1;  
+  background-color: #cc0909;  
 }
 
 nav{
@@ -29,4 +29,10 @@ nav{
     align-items: center;
     justify-content: space-between;
     height: 80px;
+}
+
+nav a.logo{
+    font-size: 33px;
+    color: #41ac46;
+    font-weight: 6008;
 }
