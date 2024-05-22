@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../views/estilos.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/estilos.css') }}">
+
 </head>
 
 <body>
@@ -19,8 +20,8 @@
                 <div class="logo"><a href="#">Cafeteria</a></div>
                 <ul class="nav-links">
                     <li class="nav-link"><a href="{{url_for('index')}}">Inicio</a></li>
-                    <li class="nav-link"><a href="#">Contactanos</a></li>
-                    <li class="nav-link"><a href="#">Quienes Somos</a></li>
+                    <li class="nav-link"><a href="{{url_for('inicio')}}">Contactanos</a></li>
+                    <li class="nav-link"><a href="{{url_for('quienes')}}">Quienes Somos</a></li>
                 </ul>
             </nav>
             <div class="content">
